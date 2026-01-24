@@ -3,7 +3,7 @@
 
 void checkAlphabet(char a, char &result)
 {
-	if(a=='a'|| a=='e'|| a=='i'|| a=='o' || a=='u' || a=='A'|| a=='E'|| a=='O'|| a=='U')
+	if(a=='a'|| a=='e'|| a=='i'|| a=='o' || a=='u' || a=='A'|| a=='E'|| a=='I' || a=='O'|| a=='U')
 	{
 		result=a-1; //return its precedor
 		cout<<a<<"is vowel"<<"its precedor is "<<result<<endl;
@@ -24,4 +24,5 @@ int main()
 	else
 	checkAlphabet(a, result);
 	return 0;
+
 }
